@@ -2,15 +2,43 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <style>
+            nav{
+                
+                position: absolute;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                float: left;
+                padding: 15px;
+                text-align: center;
+                background-color: grey;
+                opacity: 80%;
+            }
+            table {
+                float: right;
+                border: 1px solid black;
+            }
+                  
+            td{
+                border: 1px solid black;
+                width: 20px;
+                height: 20px;
+        </style>
     </head>
     <body>
         Michigan football
-        <nav>
-            <a href ="index.html"><li>Home</li></a>
-            <a href ="schedule.html"><li>Schedule</li></a>
-            <a href ="facts.html"><li>Rivals</li></a>
-            <a href ="coachingStaff.html"><li>Coaching Staff</li></a>
-        </nav>
+        <div class="nav"> 
+            <div class="topNav">
+            <nav>
+                <a href ="index.html">Home</a>
+                <a href ="schedule.html">Schedule</a>
+                <a href ="facts.html">Rivals</a>
+                <a href ="coachingStaff.html">Coaching Staff</a>
+            </nav>
+            </div>
+            </div>
         <table>
             <tr>
                 <td>Date</td>
